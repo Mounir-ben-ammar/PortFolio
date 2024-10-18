@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+    <!-- container -->
+    <div class="container">
+
+        <!-- nav Bar -->
+        <div class="nav-bar">
+            <!-- nav-bar-LS -->
+            <div class="nav-bar-LS">
+                <img src="" alt="">
+                <h1>Mounir ben ammar</h1>
+            </div>
+            <!-- nav-bar-RS -->
+            <ul class="nav-bar-RS">
+                <li><a href="#home"><span id="HOME" onmouseover="mouseOver('#HOME')" onmouseout="mouseOut('#HOME')">HOME</span></a></li>
+                <li><a href="#about-me"><span id="ABOUT" onmouseover="mouseOver('#ABOUT')" onmouseout="mouseOut('#ABOUT')">ABOUT</span></a></li>
+                <li><a href="#skills" ><span id="SKILLS" onmouseover="mouseOver('#SKILLS')" onmouseout="mouseOut('#SKILLS')">SKILLS</span></a></li>
+                <li><a href="#projects"><span id="PROJECTS" onmouseover="mouseOver('#PROJECTS')" onmouseout="mouseOut('#PROJECTS')">PROJECTS</span></a></li>
+                <li><a href="#education"><span id="EDUCATION" onmouseover="mouseOver('#EDUCATION')" onmouseout="mouseOut('#EDUCATION')">EDUCATION</span></a></li>
+                <li><a href="#contact"><span id="CONTACT" onmouseover="mouseOver('#CONTACT')" onmouseout="mouseOut('#CONTACT')">CONTACT</span></a></li>
+                <li><BUtton class="nav-bar-button"><a href="#contact">MOUNIR@GMAIL.COM</a></BUtton></li>
+            </ul>
+        </div>
+        <!-- ---------------------------------------------------------- -->
+        <div class="position"></div> <!-- pour regler le problem de position fixed de la nav-bar -->
+        <!-- --------------------------------------------------------------- -->
+
+
+
+        <!-- home -->
+        <div class="home" id="home">
+            <img src="Pic/Profile-b&w.png" alt="Profile Image" class="profile-image">
+            <div class="text-container">
+                <h4 class="hello" id="hello"></h4>
+                <p class="myName" id="myName"><br></p>
+                <h1 class="web-developer" id="webdeveloper"></h1>
+            </div>
+        </div>
+        <!-- quotation -->
+
+
+        <div class="quotation">
+            <h5>
+                "Programs must be written for people to read, and only incidentally for machines to execute."
+<br><br> <span>Harold Abelson</span>
+
+            </h5>
+        </div>
+
+
+
+
+        <!-- about me -->
+        <div class="about-me" id="about-me">
+            <img src="Pic/programer.jpg" alt="">
+            <div class="text-container-2">
+                <h1>ABOUT ME.</h1>
+                <br> <br>
+                <P>Hello! I’m Mounir Ben Ammar, a passionate web designer with a love for creating visually compelling
+                    and user-friendly digital experiences. My journey into web design started with a deep curiosity for
+                    how the web works and an innate desire to blend creativity with functionality. Over the years, I’ve
+                    developed a keen eye for detail, ensuring that each project not only looks great but also delivers
+                    an exceptional user experience.
+
+                    <br><br>I specialize in , and I’m always exploring new tools and technologies to push the boundaries
+                    of what’s possible online. Whether it's designing responsive websites, crafting clean and efficient
+                    code, or collaborating with clients to bring their vision to life, my goal is to create seamless and
+                    intuitive interfaces that solve real-world problems.
+                </P>
+            </div>
+        </div>
+        <!-- skils -->
+        <div class="skils" id="skills">
+            <h1>SKILLS.</h1>
+            <div class="icons">
+                <div class="box-icon">
+
+                    <img src="Icons/Skills/ICONS-01.png" alt="icon" class="skills-icon">
+                    <p><span>DevOps Knowledge</span> <br><br> of CI/CD, Docker, and cloud services (AWS, Heroku).</p>
+                </div>
+                <div class="box-icon">
+
+                    <img src="Icons/Skills/ICONS-02.png" alt="icon" class="skills-icon">
+                    <p> <span>Databases</span><br><br> Experience with SQL (MySQL, PostgreSQL) and NoSQL (MongoDB).</p>
+                </div>
+                <div class="box-icon">
+
+                    <img src="Icons/Skills/ICONS-03.png" alt="icon" class="skills-icon">
+                    <p><span>APIs</span><br><br> Building and integrating RESTful APIs and GraphQL.</p>
+                </div>
+                <div class="box-icon">
+
+                    <img src="Icons/Skills/ICONS-04.png" alt="icon" class="skills-icon">
+                    <p><span>Back-End Development</span> <br><br>Strong in Node.js, Express, and Python (Django, Flask).
+                    </p>
+                </div>
+                <div class="box-icon">
+
+                    <img src="Icons/Skills/ICONS-05.png" alt="icon" class="skills-icon">
+                    <p><span>Front-End Development</span> <br><br>Proficient in HTML5, CSS3, JavaScript (React, Vue.js).
+                    </p>
+                </div>
+                <div class="box-icon">
+
+                    <img src="Icons/Skills/ICONS-06.png" alt="icon" class="skills-icon">
+                    <p><span>Version Control</span><br><br> Skilled in Git and GitHub for collaborative development.</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- projects -->
+        <div class="projets" id="projects">
+            <h1>PROJECTS.</h1>
+            <div class="projects-box-container">
+
+                <div class="project-box">
+
+                    <video class="image-screen" onmouseover="play(this)" onmouseout="pause(this)" muted >
+                        <source src="Video/mouseover.mkv" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+        
+                   
+
+                </div>
+
+                <div class="project-box">
+                    <video class="image-screen" onmouseover="play(this)" onmouseout="pause(this)" muted >
+                        <source src="Video/DojoW.mkv" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                   
+                </div>
+
+                <div class="project-box">
+
+                    <video class="image-screen" onmouseover="play(this)" onmouseout="pause(this)" muted>
+                        <source src="Video/increase.mkv" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>                    
+                </div>
+            </div>
+        </div>
+        <!-- ---------------------------------------------------------- -->
+   
+        <!-- ---------------------------------------------------------- -->
+
+        <!-- education -->
+        <div class="education" id="education">
+
+            <div class="education-RS">
+                <div class="education-RS-bloc-text">
+            
+                <p class="education-RS-text"><span class="titre">Academic training in 2D & 3D Design
+                    </span> </p> <br><br>
+                    
+                    
+                     <p>
+                        <h4>TUNIS, TN - SEPT. 2007 TO JUNE 2010</h4><br>
+<p>Applied degree in Image Design <br> brHigher Institute of Fine Arts of Tunis<br> <br></p>
+                    <h4>NABEUL, TN - SEPT. 2011 TO JUNE 2012</h4><br></h4>
+                <p>Training in Computer Graphics Production Net-info, School of Art and Technology certified Adobe and Autodesk</p>
+                </div>
+ 
+
+        </div>
+        <div class="education-LS">
+            <img src="Icons/education.png" alt="icon">
+            <h1>EDUCATION.</h1>
+
+        </div>
+    </div>
+        <!-- contact -->
+        <div class="contact" id="contact">
+
+            <div class="contact-text">
+            <h1>CONTACT.</h1>
+            <h4>Mounir Ben Ammar</h4> <br>
+            <p>Adress: 16 rue des grenadiers - 2078 - la Marsa, Tunis - Tunisia <br>
+                Mobile. : (+216) 21 08 32 00 <br>
+                E-mail: Mounir.ben.ammar2@gmail.com</p>
+            </div>
+            <div class="contact-form">
+        <form action="https://api.web3forms.com/submit" method="post">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Put your Full Name" >
+
+                <input type="hidden" name="access_key" value="8b827ce6-f93f-43f1-a99a-79a7776d5699">
+
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Put your Email" >
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Object</label>
+                <input type="text" id="subject" name="subject" placeholder="Object" >
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your message" ></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+                <!-- nav-bar-LS -->
+
+                <ul class="nav-bar-footer">
+                    <li><a href="#home"><span id="HOME-F" onmouseover="mouseOverF('#HOME-F')" onmouseout="mouseOutF('#HOME-F')">HOME</span></a></li>
+                    <li><a href="#about-me"><span id="ABOUT-F" onmouseover="mouseOverF('#ABOUT-F')" onmouseout="mouseOutF('#ABOUT-F')">ABOUT</span></a></li>
+                    <li><a href="#skills" ><span id="SKILLS-F" onmouseover="mouseOverF('#SKILLS-F')" onmouseout="mouseOutF('#SKILLS-F')">SKILLS</span></a></li>
+                    <li><a href="#projects"><span id="PROJECTS-F" onmouseover="mouseOverF('#PROJECTS-F')" onmouseout="mouseOutF('#PROJECTS-F')">PROJECTS</span></a></li>
+                    <li><a href="#education"><span id="EDUCATION-F" onmouseover="mouseOverF('#EDUCATION-F')" onmouseout="mouseOutF('#EDUCATION-F')">EDUCATION</span></a></li>
+                    <li><a href="#contact"><span id="CONTACT-F" onmouseover="mouseOverF('#CONTACT-F')" onmouseout="mouseOutF('#CONTACT-F')">EDUCATION</span></a></li>
+    
+                </ul>
+    
+        </div>
+
+    </div>
+
+    </div>
+    <script src="script.js">
+        
+    </script>
+</body>
+
+</html>
